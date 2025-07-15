@@ -13,7 +13,8 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "NODE_OPTIONS=\"--loader ts-node/esm\" node index.ts",
-    "inspector": "npx @modelcontextprotocol/inspector npm run dev"
+    "inspector": "npx @modelcontextprotocol/inspector npm run dev",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.3",
